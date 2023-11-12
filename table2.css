@@ -1,0 +1,56 @@
+table
+{
+    border-bottom: 2px solid;
+
+}
+
+table, th, td
+{
+    border-bottom: 2px solid;
+}
+
+table
+{
+    width: 100%;
+    font-size: 20px;
+    border-collapse: collapse;
+    padding: 30px;
+}
+
+
+th, td
+{
+    padding: 10px;
+    border-color: cadetblue;
+}
+
+th
+{
+    background-color: dodgerblue;
+    color: white;
+}
+
+tbody:nth-child(even)
+{
+    background-color: rgba(240, 240, 141, 0.459);
+}
+
+
+table :hover
+{
+    background-color: rgba(212, 163, 71, 0.493);
+}
+
+
+.container
+{
+    width: 80%;
+    margin: auto;
+
+}
+
+
+.container
+{
+    padding-top: 40px;
+}
